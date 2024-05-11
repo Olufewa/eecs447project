@@ -1,0 +1,571 @@
+  /* Additional inline styles for enhanced visual appeal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Set background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Increased padding for header */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Change link color on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px; /* Increased margin for sections */
+}
+
+h2 {
+    color: #333;
+    font-size: 24px; /* Increased font size for section headings */
+    margin-bottom: 20px; /* Increased margin bottom for section headings */
+}
+
+/* Styles for Featured Books Section */
+#featured-books {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+#featured-books .book {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#featured-books .book img {
+    width: 200px;
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    margin-bottom: 10px;
+    border-radius: 5px; /* Rounded corners for images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#featured-books .book p {
+    font-size: 16px; /* Increased font size for book titles */
+    margin-bottom: 5px;
+}
+
+#featured-books .book:hover {
+    transform: translateY(-5px); /* Move book up on hover */
+}
+
+#featured-books .book:hover img {
+    transform: scale(1.05); /* Scale up image on hover */
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links img {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #555;
+}
+
+/* Promotions Section Styles */
+.promotions-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.promotions-section .section-title {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.promotions-section .promotion-content {
+    line-height: 1.6;
+}
+
+/* Popular Categories Section Styles */
+.categories-section {
+    text-align: center;
+}
+
+.categories-section .section-title {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.category-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.category-link:hover {
+    color: #007bff;
+}
+
+
+
+
+
+/* Browse Books Page Styles */
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-details {
+    text-align: center;
+}
+
+.book-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.book-author {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.book-price {
+    margin-bottom: 5px;
+}
+
+.add-to-cart-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Registration Form Styles */
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Styles for admin_panel.php */
+.admin-panel {
+    padding: 20px;
+}
+
+.admin-panel-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-table th {
+    background-color: #f2f2f2;
+}
+
+.order-id, .user-id, .total-amount, .order-date {
+    width: 25%;
+}
+
+.add-book-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.add-book-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.add-book-form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.add-book-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-book-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-book-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-book-button:hover {
+    background-color: #555;
+}
+
+/* Cart Styles */
+/* Cart Styles */
+.cart-items {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+}
+
+.cart-item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Adjust width */
+    max-width: 400px; /* Add max-width */
+    display: flex; /* Add */
+}
+
+.cart-item-image {
+    width: 150px; /* Adjust width */
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; /* Add border-bottom-left-radius */
+    flex-shrink: 0; /* Add */
+}
+
+.cart-item-details {
+    padding: 10px;
+    flex-grow: 1; /* Add */
+}
+
+.cart-item-title {
+    margin-top: 0;
+    font-size: 18px; /* Adjust font size */
+}
+
+.cart-item-author,
+.cart-item-price,
+.cart-item-quantity {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.cart-item-quantity {
+    margin-top: auto; /* Align to bottom */
+}
+
+.empty-cart {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
+/* Checkout Page Styles */
+.checkout-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-section p {
+    margin-bottom: 15px;
+}
+
+.checkout-section form {
+    margin-bottom: 20px;
+}
+
+.checkout-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkout-section input[type="radio"] {
+    margin-right: 10px;
+}
+
+.checkout-section input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkout-section button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-section button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.content-container {
+    padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+
+/* Order Card Styles */
+.order-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left; /* Align everything to the left */
+}
+
+.order-id {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.order-date,
+.order-price {
+    margin: 5px 0;
+    color: #666;
+}
+
+.order-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    font-size: 14px;
+    color: #333;
+}
